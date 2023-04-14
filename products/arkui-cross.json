@@ -1,0 +1,11 @@
+{
+  "product_name": "arkui-cross",
+  "device_company": "android",
+  "target_cpu": "arm",
+  "board": "arkui-cross",
+  "version": "3.0",
+  "type": "standard",
+  "subsystems": [
+    {}
+  ]
+}
