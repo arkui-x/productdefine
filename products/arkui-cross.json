@@ -1,7 +1,7 @@
 {
   "product_name": "arkui-cross",
   "device_company": "android",
-  "target_cpu": "arm",
+  "target_cpu": "arm64",
   "board": "arkui-cross",
   "version": "3.0",
   "type": "standard",
