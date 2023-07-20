@@ -1,8 +1,8 @@
 {
-  "product_name": "arkui-cross",
-  "device_company": "android",
+  "product_name": "arkui-x",
+  "device_company": "ohos",
   "target_cpu": "arm64",
-  "board": "arkui-cross",
+  "board": "arkui-x",
   "version": "3.0",
   "type": "standard",
   "subsystems": [
