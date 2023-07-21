@@ -14,5 +14,5 @@ productdefine/common
 ├── base                          # 最小系统部件集合
 │   └── standard_system.json      # 标准系统最小部件集合
 └── products                      # 系统组件形态配置文件，配置文件名称与product name保持一致
-    └── arkui-cross.json          # SDK部件集合
+    └── arkui-x.json          # SDK部件集合
 ```
