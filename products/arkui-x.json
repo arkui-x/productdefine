@@ -5,6 +5,7 @@
   "board": "arkui-x",
   "version": "3.0",
   "type": "standard",
+  "support_jsapi": true,
   "subsystems": [
     {}
   ]
