@@ -1,0 +1,12 @@
+{
+  "product_name": "arkui-x",
+  "device_company": "ohos",
+  "target_cpu": "arm64",
+  "board": "arkui-x",
+  "version": "3.0",
+  "type": "standard",
+  "support_jsapi": true,
+  "subsystems": [
+    {}
+  ]
+}
