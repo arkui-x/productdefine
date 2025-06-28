@@ -14,6 +14,32 @@
           "component": "protobuf"
         }
       ]
+    },
+    {
+      "subsystem": "thirdparty",
+      "components": [
+        {
+          "component": "libuv"
+        }
+      ]
+    },
+    {
+      "subsystem": "arkcompiler",
+      "components": [
+        {
+          "component": "ets_runtime",
+          "features": []
+        }
+      ]
+    },
+    {
+      "subsystem": "arkcompiler",
+      "components": [
+        {
+          "component": "ets_frontend",
+          "features": []
+        }
+      ]
     }
   ]
 }
