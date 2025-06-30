@@ -8,10 +8,76 @@
   "support_jsapi": true,
   "subsystems": [
     {
-      "subsystem": "thirdparty",
+      "subsystem": "arkcompiler",
       "components": [
         {
-          "component": "protobuf"
+          "component": "ets_frontend",
+          "features": []
+        },
+        {
+          "component": "ets_runtime",
+          "features": []
+        }
+      ]
+    },
+    {
+      "subsystem": "arkui",
+      "components": [
+        {
+          "component": "ace_engine",
+          "features": [
+            "ace_engine_feature_enable_upgrade_skia = true"
+          ]
+        }
+      ]
+    },
+    {
+      "subsystem": "distributeddatamgr",
+      "components": [
+        {
+          "component": "udmf",
+          "features": [
+            "udmf_feature_upgrade_skia = true"
+          ]
+        }
+      ]
+    },
+    {
+      "subsystem": "graphic",
+      "components": [
+        {
+          "component": "graphic_2d",
+          "features": [
+            "graphic_2d_feature_upgrade_skia = true"
+          ]
+        },
+        {
+          "component": "graphics_effect",
+          "features": [
+            "graphics_effect_feature_upgrade_skia = true"
+          ]
+        }
+      ]
+    },
+    {
+      "subsystem": "multimedia",
+      "components": [
+        {
+          "component": "image_framework",
+          "features": [
+            "image_framework_feature_upgrade_skia = true"
+          ]
+        }
+      ]
+    },
+    {
+      "subsystem": "multimodalinput",
+      "components": [
+        {
+          "component": "input",
+          "features": [
+            "input_feature_upgrade_skia = true"
+          ]
         }
       ]
     },
@@ -20,24 +86,15 @@
       "components": [
         {
           "component": "libuv"
-        }
-      ]
-    },
-    {
-      "subsystem": "arkcompiler",
-      "components": [
+        },
         {
-          "component": "ets_runtime",
-          "features": []
-        }
-      ]
-    },
-    {
-      "subsystem": "arkcompiler",
-      "components": [
+          "component": "protobuf"
+        },
         {
-          "component": "ets_frontend",
-          "features": []
+          "component": "skia",
+          "features": [
+            "skia_feature_upgrade = true"
+          ]
         }
       ]
     }
