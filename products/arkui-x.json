@@ -91,10 +91,29 @@
           "component": "protobuf"
         },
         {
+          "component": "typescript"
+        },
+        {
           "component": "skia",
           "features": [
             "skia_feature_upgrade = true"
           ]
+        }
+      ]
+    },
+    {
+      "subsystem": "developtools",
+      "components": [
+        {
+          "component": "ace_ets2bundle"
+        }
+      ]
+    },
+    {
+      "subsystem": "sdk",
+      "components": [
+        {
+          "component": "sdk"
         }
       ]
     }
