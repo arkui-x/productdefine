@@ -48,6 +48,7 @@
         {
           "component": "graphic_2d",
           "features": [
+            "graphic_2d_feature_enable_vulkan = true",
             "graphic_2d_feature_upgrade_skia = true"
           ]
         },
@@ -96,6 +97,7 @@
         {
           "component": "skia",
           "features": [
+            "skia_feature_use_vulkan = true",
             "skia_feature_upgrade = true"
           ]
         }
